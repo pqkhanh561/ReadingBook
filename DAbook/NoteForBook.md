@@ -22,8 +22,9 @@ Syntax: sort_index(axis=?), rank
 In dataframe, it can be sort by a column or row.
 
 ### 1.7 Axis indexes with duplicate values
-
-
+<br />
+<br />
+<br />
 
 ## 2. Summarizing and Computing Descriptive Statistics
 ### 2.1 Correlation and Covariance
