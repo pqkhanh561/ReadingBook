@@ -1,6 +1,6 @@
-# Getting Started with pandas
+# A Getting Started with pandas
 
-## Essential Functionality 
+## 1 Essential Functionality 
 ### Reindexing
 Create a new index for dataframe or series
 There are some tool for fill the data if there are new indexes. (ffil, bfill)
@@ -25,7 +25,7 @@ In dataframe, it can be sort by a column or row.
 
 
 
-## Summarizing and Computing Descriptive Statistics
+## 2 Summarizing and Computing Descriptive Statistics
 ### Correlation and Covariance
 Need definition for 2 of these.
 
@@ -33,7 +33,7 @@ Need definition for 2 of these.
 Note that only **Series** has *value_count*. In dataframe, we need to use *dataframe.apply(pd.value_count)*, it will return the frequency of every different object in each column of the dataframe.
 
 
-## Handling Missing Data
+## 3 Handling Missing Data
 Syntax: dropna, fillna, isnull, notnull
 ### Filtering Out Missing Data
 how='all' will drop rows that are all NA
@@ -43,7 +43,7 @@ what is thresh?
 inplace=True is make a new one with changes
 
 
-## Hierarchical Indexing
+## 4 Hierarchical Indexing
 Hierarchical indexing is an important feature of pandas enabling you to have multiple index levels on an axis.
 Example:
 ```
@@ -74,7 +74,7 @@ Do operation by levels
 ### Using a DataFrame’s Columns
 You can use columns of dataframe to be index. Syntax: set_index() default is drop the columns that are used to be indexes
 
-# Data Loading, Storage, and File Formats
+# B Data Loading, Storage, and File Formats
 
 ## Reading and Writing Data in Text Format
 There are many data follow up these:
