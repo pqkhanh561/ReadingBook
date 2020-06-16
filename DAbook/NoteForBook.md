@@ -100,7 +100,7 @@ Syntax: to_csv()
 ### 1.3 Manually Working with Delimited Formats
 Read each line of file and do split
 
-## 1.4 JSON Data
+### 1.4 JSON Data
 This data is usually in HTTP request, Because its flexible.
 ```
 obj = """
@@ -114,7 +114,7 @@ obj = """
 ```
 Syntax: to_json() and from_json()
 
-## 1.5 XML and HTML: Web Scraping
+### 1.5 XML and HTML: Web Scraping
 
 
 
