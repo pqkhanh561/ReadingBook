@@ -46,23 +46,23 @@ inplace=True is make a new one with changes
 ## Hierarchical Indexing
 Hierarchical indexing is an important feature of pandas enabling you to have multiple index levels on an axis.
 Example:
-'''
+```
 data = Series(np.random.randn(10),
 .....:		index=[['a', 'a', 'a', 'b', 'b', 'b', 'c', 'c', 'd', 'd'],
 .....:			[1, 2, 3, 1, 2, 3, 1, 2, 2, 3]])
 
-'''
+```
 
 *This data can be changed to be dataframe by unstack()*
 
 There are many example of complex hierarchical index data.
 Dataframe can be represented like this:
-'''
+```
 frame = DataFrame(np.arange(12).reshape((4, 3)),
  			index=[['a', 'a', 'b', 'b'], [1, 2, 1, 2]],
  			columns=[['Ohio', 'Ohio', 'Colorado'],
  				['Green', 'Red', 'Green']])
-'''
+```
 
 
 ### Reordering and Sorting Levels
