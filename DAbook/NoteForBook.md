@@ -1,5 +1,4 @@
 # A Getting Started with pandas
-<br />
 ## 1. Essential Functionality 
 ### 1.1 Reindexing
 Create a new index for dataframe or series
@@ -54,7 +53,6 @@ data = Series(np.random.randn(10),
 .....:			[1, 2, 3, 1, 2, 3, 1, 2, 2, 3]])
 
 ```
-<br />
 *This data can be changed to be dataframe by unstack()*
 <br />
 There are many example of complex hierarchical index data.
@@ -65,7 +63,7 @@ frame = DataFrame(np.arange(12).reshape((4, 3)),
  			columns=[['Ohio', 'Ohio', 'Colorado'],
  				['Green', 'Red', 'Green']])
 ```
-<br />
+
 ### 4.1 Reordering and Sorting Levels
 When **sort** data that has hierarchical indexes, we need to notice the level. Sort which level?
 <br />
